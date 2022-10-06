@@ -1,0 +1,52 @@
+html,body{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+.bgimg {
+  height:900px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/background-image.jpeg");
+
+}
+.innerBgimg{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family : Anton;
+  }
+  .contact-form{
+    display:flex;
+  }
+.footerClass{
+  background-color: #4a5059;
+}
+.paragraph{
+  font-family: Roboto;
+  padding-top: 0px;
+  display:flex;
+  align-items:center;
+}
+.avatar{
+  display:flex;
+  justify-content:flex-end;
+}
+@media screen and (max-width: 800px) {
+  .paragraph {
+    padding-top:40px;
+  }
+  .avatar{
+    display:flex;
+    justify-content:center;
+  }
+}
+#navbarsExampleDefault{
+  float:right;
+}
